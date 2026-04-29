@@ -1093,7 +1093,7 @@
 
   // ─── POPULATE DEMO ACCOUNTS ─────────────────────────────────────────────────
   // Shows the first 16 students as tappable demo rows on the login card.
-  STUDENTS.slice(0, 16).forEach(s => {
+  STUDENTS.slice(0, 200).forEach(s => {
     const row = document.createElement('div');
     row.className = 'demo-row';
     row.innerHTML = `<span>${s.id}</span>PIN:<span>${s.pin}</span>${s.name.split(' ')[0]}`;
